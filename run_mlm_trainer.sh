@@ -1,0 +1,11 @@
+accelerate launch run_mlm.py \
+    --model_name_or_path roberta-base \
+    --dataset_name wikitext \
+    --dataset_config_name wikitext-2-raw-v1 \
+    --per_device_train_batch_size 8 \
+    --per_device_eval_batch_size 8 \
+    --do_train \
+    --do_eval \
+    --cache_dir /home/namch_hust1_gmail_com/cache_datasets/datasets \
+    --output_dir test-mlm \
+    --overwrite_output_dir
