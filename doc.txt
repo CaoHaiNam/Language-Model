@@ -1,3 +1,5 @@
 Train mlm
     + model: prajjwal1/bert-small
     + dataset: wikitext-2-raw-v1
+    
+train mlm bằng trainer ko cần set padding_to_max_length = True????

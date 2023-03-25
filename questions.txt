@@ -1,0 +1,2 @@
+Câu hỏi:
+    tại sao pre-training với model roberta-base ko bị lỗi mà pre-training với model prajjwal1/bert-small lại bị lỗi

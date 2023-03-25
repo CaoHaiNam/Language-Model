@@ -10,3 +10,4 @@ optuna
 evaluate
 nltk
 rouge_score
+scikit-learn
