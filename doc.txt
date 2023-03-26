@@ -1,5 +1,8 @@
-Train mlm
+Train mlm demo 
     + model: prajjwal1/bert-small
     + dataset: wikitext-2-raw-v1
     
 train mlm bằng trainer ko cần set padding_to_max_length = True????
+
+train roberta cho tiếng Việt:
+    + tokenizer: VietAI/vi-bartflax-large-news
