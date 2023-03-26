@@ -8,4 +8,6 @@ accelerate launch run_mlm.py \
     --do_eval \
     --cache_dir /home/namch_hust1_gmail_com/cache_datasets/datasets \
     --output_dir test-mlm \
-    --overwrite_output_dir
+    --overwrite_output_dir \
+    --max_train_samples 1000 \
+    --max_eval_samples 500
